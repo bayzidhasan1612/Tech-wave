@@ -7,10 +7,11 @@
 
 /* header section style */
 .gradient-text {
-    background: linear-gradient(
-        to right top,
-        #F7E93F, #FB09B4, #9100F8
-    );
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right top, #f7e93f, #fb09b4, #9100f8);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button{
+  background: linear-gradient(right top, #f7e93f, #fb09b4, #9100f8);
 }
