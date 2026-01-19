@@ -64,6 +64,7 @@ button{
     opacity: 80%;
     color: #FFFFFF;
     line-height: 20px;
+    margin-bottom: 120px;
 }
 
 .divider{
@@ -71,4 +72,67 @@ button{
     margin: 0 auto;
     color: #FFFFFF;
     opacity: 10%;
+}
+
+
+
+
+/* Choose Section */
+.choose-section{
+    background-color: #230E3D;
+}
+
+.choose-container>* {
+    border-radius: 40px;
+    background-color: hsla(266, 71%, 23%, 0.399);
+}
+
+.choose-container h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.choose-container p{
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 40%;
+}
+.audio{
+    padding: 107px 40px;
+}
+.mobile, .global, .exclusive, .resources{
+    padding: 40px;
+}
+
+
+.audio{
+    grid-area: audio;
+}
+.mobile{
+    grid-area: mobile;
+}
+.global{
+    grid-area: global;
+}
+.exclusive{
+    grid-area: exclusive;
+}
+.resources{
+    grid-area: resources;
+}
+
+
+.choose-container{
+    display: grid;
+    justify-content: center;
+    margin: 0 200px;
+    gap: 30px;
+    padding-bottom: 120px;
+    grid-template-areas: 
+        "audio mobile mobile"
+        "audio global global"
+        "exclusive exclusive resources"
+    ;
 }
