@@ -136,3 +136,48 @@ button{
         "exclusive exclusive resources"
     ;
 }
+
+
+
+/* Featured Section */
+.featured-section{
+    background-color: #1A0B2E;
+}
+.featured-container{
+    margin: 0 200px;
+    gap: 30px;
+}
+
+iframe{
+    width: 100%;
+    max-width: 380px;
+    max-height: 214px;
+    aspect-ratio: 16 / 9;
+    border-radius: 20px 20px 0 0;
+    
+}
+.first-podcast, .second-podcast, .third-podcast{
+    border: none;
+    border-radius: 0 0 20px 20px;
+    background-color: hsla(266, 68%, 16%, 0.692);
+    padding: 24px;
+}
+
+
+.podcast h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+.podcast p{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 200;
+    opacity: 40%;
+    margin-bottom: 12px;
+}
+.podcast img{
+    width: 20px;
+    height: 20px;
+}
