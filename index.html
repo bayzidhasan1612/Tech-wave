@@ -42,11 +42,16 @@
     </header>
 
     <main>
-      <section>
-        <div class="hero-image">
+      <section class="hero-image">
+        <div class="">
           <div class="flex justify-center items-center pt-24">
             <img class="cirle-img" src="assets/hero-circle.png" alt="" />
             <img class="microphone-img" src="assets/microphone.png" alt="" />
+            <p
+              class="txt text-black font-semibold rounded-4xl bg-[#00FF88] px-4 py-2"
+            >
+              NEW
+            </p>
           </div>
           <div class="text-center text-white mt-10">
             <h1 class="text-6xl font-extrabold mb-2">TechWave</h1>
@@ -56,13 +61,57 @@
             </p>
           </div>
           <div class="flex gap-2 justify-center">
-            <button class=" flex justify-center items-center gap-2  text-white spotify-btn font-semibold bg-gradient-to-tr from-yellow-500 via-pink-500 to-violet-700 py-3 pr-6 pl-7 rounded-4xl cursor-pointer">
-                <img class="spotify-icon block" src="assets/spotify.png" alt="Icon"><span>Listen on Spotify</span></button>
-            <button class="sub-spotify flex items-center justify-center gap-2 font-semibold text-green-400 rounded-4xl py-3 pl-7 pr-5">
-                <img src="assets/message.png" alt="">
-                Subscribe
+            <button
+              class="flex justify-center items-center gap-2 text-white spotify-btn font-semibold bg-gradient-to-tr from-yellow-500 via-pink-500 to-violet-700 py-3 pr-6 pl-7 rounded-4xl cursor-pointer"
+            >
+              <img
+                class="spotify-icon block"
+                src="assets/spotify.png"
+                alt="Icon"
+              /><span>Listen on Spotify</span>
+            </button>
+            <button
+              class="sub-spotify flex items-center justify-center gap-2 font-semibold text-green-400 rounded-4xl py-3 pl-7 pr-5"
+            >
+              <img src="assets/message.png" alt="" />
+              Subscribe
             </button>
           </div>
+        </div>
+      </section>
+
+      <section class="about-section bg-[#1A0B2E]">
+        <div class="about-podcast text-white text-center">
+          <h1 class="text-5xl font-bold mb-4">About the Podcast</h1>
+          <p class="opacity-80 leading-[20px] font-extralight mb-20">
+            TechWave is your go-to podcast for staying ahead in the fast-paced
+            world of technology. <br /><br />
+            We break down complex topics into digestible insights, explore
+            productivity strategies that actually work, <br /><br />
+            and share stories of personal growth from industry leaders.
+            <br /><br /><br />
+            Join thousands of young professionals and tech enthusiasts who start
+            their day with TechWave.
+          </p>
+        </div>
+        <hr class="divider">
+        <div class="grid grid-cols-4 text-center mt-20">
+            <div class="title">
+                <h1>150K+</h1>
+                <p>Monthly Listeners</p>
+            </div>
+            <div class="title">
+                <h1>200+</h1>
+                <p>Episodes Published</p>
+            </div>
+            <div class="title">
+                <h1>4.9★</h1>
+                <p>Average Rating</p>
+            </div>
+            <div class="title">
+                <h1>50+</h1>
+                <p>Industry Experts</p>
+            </div>
         </div>
       </section>
     </main>

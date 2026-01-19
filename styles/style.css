@@ -27,6 +27,11 @@ button{
     background-position: center;
     position: static;
 }
+.txt{
+    position: absolute;
+    top: 198px;
+    right: 570px;
+}
 
 .microphone-img{
     position: absolute;   
@@ -43,4 +48,27 @@ button{
 .spotify-icon{
     height: 20px;
     width: 20px;
+}
+
+
+/* About section */
+.title h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #00FF88;
+}
+.title p{
+    font-size: 16px;
+    font-weight: 200;
+    opacity: 80%;
+    color: #FFFFFF;
+    line-height: 20px;
+}
+
+.divider{
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    opacity: 10%;
 }
