@@ -213,13 +213,13 @@ iframe {
     padding: 120px;
 }
 .footer-container{
-    border: 2px solid lightblue;
+    
 }
 
 .podcast-social-link{
     max-width: 544px;
     max-height: 24px;
-    margin: 0 auto;
+    margin: 44px 408px 0;
 }
 .podcast-social-link img{
     width: 26px;
