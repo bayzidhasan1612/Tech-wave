@@ -239,3 +239,66 @@ iframe {
   color: #ffffff;
   opacity: 60%;
 }
+
+
+.hide{
+    display: none; !important
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 576px) {
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu-items, .primary-btn, .line-break{
+        display: none;
+    }
+
+    .hero-image{
+        max-width: 440px;
+        height: 466px;
+    }
+    .banner-img-container{
+        padding-top: 40px;
+    }
+    .circle-img{
+        max-width: 200px;
+        height: 200px;
+    }
+    .microphone-img{
+        max-width: 80px;
+        height: 80px;
+    }
+    .banner-title{
+        margin-top: 24px;
+    }
+    .banner-title h1{
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .about-podcast{
+        max-width: 400px;
+        padding-top: 40px;
+    }
+    .about-title{
+        font-size: 32px;
+    }
+
+    .about-discription {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    /* .divider{
+        margin-bottom: 40px;
+    } */
+
+    .rate-number{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
