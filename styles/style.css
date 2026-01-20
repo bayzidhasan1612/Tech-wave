@@ -1,7 +1,15 @@
-@import "tailwindcss" .inter-font {
+.inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
+@import "tailwindcss" 
+
+
+
+
+
 
 /* Shared Style */
 .gradient-text {
@@ -332,6 +340,45 @@ iframe {
     .choose-container h1{
         font-size: 22px;
     }
-    
+
+    .featured{
+        padding: 40px 20px 0;
+    }
+    .featured-title, .host-title{
+        font-size: 32px;
+    }
+    .featured-container{
+        grid-template-columns: 400px;
+    }
+    .host-section{
+        padding: 20px;
+    }
+    .host-container{
+        max-width: 576px;
+        margin: 0 auto;
+        padding: 24px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .host-container img{
+        max-width: 150px;
+        height: 150px;
+    }
+    .host-img{
+        margin: 0 auto;
+    }
+    .host-title{
+        padding-top: 60px;
+    }
+    .host-social-link{
+        max-width: 184px;
+        margin: 0 auto;
+    }
+    .host-social-link img{
+        width: 20px;
+        height: 20px;
+    }
 
 }
