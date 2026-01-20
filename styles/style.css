@@ -1,28 +1,21 @@
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
-@import "tailwindcss" 
 
 
 
 
+/* Header Section Style */
+.hidden{
+  display: none;!important;}
 
 
-/* Shared Style */
-
-
-/* header section style */
-button {
-  background: linear-gradient(right top, #f7e93f, #fb09b4, #9100f8);
-}
 
 /* hero section */
-.hero-image {
+.hero-image{
   width: 100%;
-  /* max-width: 1600px; */
   height: 760px;
   background: url("../assets/hero-bg.png");
   background-size: cover;
@@ -215,14 +208,12 @@ iframe {
 /* Footer Section */
 .footer-section {
   background: url("../assets/footer-bg.png");
-  /* max-width: 1600px; */
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 412px;
   padding: 120px;
-}
-.footer-container {
 }
 
 .podcast-social-link {
@@ -247,9 +238,6 @@ iframe {
 }
 
 
-.hide{
-    display: none; !important
-}
 
 
 /* Responsive Design */
@@ -257,6 +245,9 @@ iframe {
     nav{
         display: flex;
         justify-content: space-between;
+    }
+    .hidden{
+      display: flex;
     }
     .menu-items, .primary-btn, .line-break{
         display: none;
