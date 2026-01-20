@@ -220,6 +220,8 @@ iframe {
 .footer-section {
   background: url("../assets/footer-bg.png");
   /* max-width: 1600px; */
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   height: 412px;
   padding: 120px;
@@ -344,7 +346,10 @@ iframe {
     .featured{
         padding: 40px 20px 0;
     }
-    .featured-title, .host-title{
+    .podcast{
+        max-width: 380px;
+    }
+    .featured-title, .host-title, .footer-title{
         font-size: 32px;
     }
     .featured-container{
@@ -379,6 +384,23 @@ iframe {
     .host-social-link img{
         width: 20px;
         height: 20px;
+    }
+
+    .footer-section{
+        max-width: 440px;
+        /* height: 228px; */
+        height: 100%;
+        padding: 40px;
+    }
+    .footer-title{
+        margin-bottom: 24px;
+    }
+    .podcast-social-link{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        margin: 0 auto;
+        margin-bottom: 24px;
     }
 
 }
