@@ -195,12 +195,17 @@ iframe {
   font-size: 16px;
   line-height: 24px;
 }
-
+.host-social-media{
+    border: 2px solid #533c72;
+  border-radius: 50%;
+  padding: 10px;
+}
+.host-social-link{
+    padding: 10px;
+}
 .host-social-link img {
   width: 20px;
   height: 20px;
-  border: 2px solid #533c72;
-  border-radius: 50%;
 }
 
 
@@ -225,7 +230,7 @@ iframe {
     width: 26px;
     height: 20px;
 }
-.podcast-social-link p{
+.podcast-social-link a{
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
