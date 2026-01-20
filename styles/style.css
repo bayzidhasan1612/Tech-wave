@@ -12,11 +12,7 @@
 
 
 /* Shared Style */
-.gradient-text {
-  background: linear-gradient(to right top, #f7e93f, #fb09b4, #9100f8);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 
 /* header section style */
 button {
@@ -273,6 +269,12 @@ iframe {
     .banner-img-container{
         padding-top: 40px;
     }
+    .txt{
+        width: 70px;
+         top: 140px;
+        right: 105px;
+        box-shadow: -1px 1px 10px rgb(106, 255, 0); 
+    }
     .circle-img{
         max-width: 200px;
         height: 200px;
@@ -322,10 +324,7 @@ iframe {
         font-size: 32px;
         font-weight: bold;
     }
-    .audio{
-        max-width: 400px;
-        padding: 24px;
-    }
+ 
     .choose-container{
         display: grid;
         gap: 16px;
@@ -387,7 +386,7 @@ iframe {
     }
 
     .footer-section{
-        max-width: 440px;
+        max-width: 576px;
         /* height: 228px; */
         height: 100%;
         padding: 40px;
@@ -401,6 +400,11 @@ iframe {
         gap: 16px;
         margin: 0 auto;
         margin-bottom: 24px;
+    }
+    .copy-right-section{
+        max-width: 400px;
+        font-size: 16px;
+        line-height: 24px;
     }
 
 }
