@@ -4,6 +4,24 @@
   font-style: normal;
 }
 
+/* Animation and Hover */
+.primary-btn, .secondery-btn, .third-btn{
+  transition: all 0.3s ease;
+}
+
+.primary-btn:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #fb09b2a2, 0 0 20px #9100f8;
+}
+.secondery-btn:hover{
+    transform: scale(1.1);
+  box-shadow: 0 0 10px #fb09b200, 0 0 20px #9100f8;
+}
+
+.third-btn:hover{
+    transform: scale(1.1);
+  box-shadow: 0 0 10px #049652a1, 0 0 20px #00ff8885;
+}
 
 
 
